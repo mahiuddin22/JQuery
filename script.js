@@ -49,3 +49,26 @@ $(".myButton").on("click", function(){
     var value = this.innerHTML;
     $("#listner").text(value +" is clicked");
 })
+
+
+//password testing project as like as validation
+
+$("#submitbutton").on("click", function(){
+
+   
+var password1 = $("#pass1").val();
+var password2 = $("#pass2").val();
+
+
+if(password1 !="" && password2!="")
+{
+    if(password1 == password2){
+        alert("Successfuly login");
+    }else{
+        alert("Password Mismatch");
+    }
+}else{
+    alert("Enter password");
+}
+
+})

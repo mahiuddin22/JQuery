@@ -25,3 +25,38 @@
     color: #fff;
     transition: 0.2s;
 }
+.clickme{
+    background-color: #3498db;
+    padding: 10px;
+    border-style: none;
+    border-radius: 2px;
+    color: #fff;
+}
+.clickme:hover{
+    background-color: #1b87cf;
+    box-shadow: 1px 2px 2px #95a5a6;
+    padding: 10px;
+    border-style: none;
+    border-radius: 2px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+#pass1,#pass2{
+    padding: 5px;
+    margin: 5px 5px;
+    border: 1px solid #d2dcdd;
+    border-radius: 3px;
+}
+#submitbutton{
+    margin-left: 3px;
+}
+.card{
+    font-family: monospace;
+    border: 1px solid #d2dcdd;
+    width: 12rem;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #95a5a6;
+    margin-bottom: 10px;
+}
