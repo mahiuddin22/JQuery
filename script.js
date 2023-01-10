@@ -45,7 +45,7 @@ $("#button").click(function(){
 });
 
 //add multiple event listenser
-$("#myButton").on("click", function(){
+$(".myButton").on("click", function(){
     var value = this.innerHTML;
     $("#listner").text(value +" is clicked");
 })
