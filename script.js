@@ -33,3 +33,19 @@ let styling1 = $("<h1></h1>").text("Added from JQuery page").css({
     "padding" : "4px 0 4px 10px"
 });
 $("#styling").after(styling1);
+
+//add event listener using javescript
+// document.querySelector("#button").addEventListener("click", function(){
+//     document.querySelector("#eventpara").innerHTML = "You have clicked the button";
+// });
+
+//add event listener using jquery
+$("#button").click(function(){
+    $("#eventpara").toggleClass("eventToggle");
+});
+
+//add multiple event listenser
+$("#myButton").on("click", function(){
+    var value = this.innerHTML;
+    $("#listner").text(value +" is clicked");
+})
