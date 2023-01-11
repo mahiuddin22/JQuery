@@ -35,7 +35,6 @@
 .clickme:hover{
     background-color: #1b87cf;
     box-shadow: 1px 2px 2px #95a5a6;
-    padding: 10px;
     border-style: none;
     border-radius: 2px;
     color: #fff;
@@ -59,4 +58,41 @@
     border-radius: 3px;
     box-shadow: 1px 1px 5px #95a5a6;
     margin-bottom: 10px;
+}
+
+.container{
+    border: 1px solid #d2dcdd;
+    width: 15rem;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #95a5a6;
+    margin-bottom: 10px;
+}
+
+.cal-head input{
+width: 14rem;
+padding: 15px 5px;
+border: 2px solid #95a5a6;
+border-radius: 2px;
+font-size: 20px;
+text-align: right;
+margin-bottom: 8px;
+font-weight: bold;
+}
+.btn{
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 2px;
+    color: #fff;
+    margin: 2px;
+}
+
+.btn:hover{
+    background-color: #1b87cf;
+    box-shadow: 1px 2px 2px #95a5a6;
+    border-style: none;
+    border-radius: 2px;
+    color: #fff;
+    transition: 0.2s;
 }

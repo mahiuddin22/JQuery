@@ -71,4 +71,26 @@ if(password1 !="" && password2!="")
     alert("Enter password");
 }
 
-})
+});
+
+var btnNumber = $("#result");
+
+function insertNumber(number){
+    var existingNumber = btnNumber.val();
+    btnNumber.val(existingNumber + number);
+}
+
+function clearResult(){
+    btnNumber.val("");
+}
+
+function calculate(){
+   var result = eval(btnNumber.val());
+   btnNumber.val(result);
+}
+function deleteNumber(){
+    var presentValue = btnNumber.val();
+    if (presentValue != ''){
+        btnNumber.val(presentValue.slice(0,-1));
+    }
+}
